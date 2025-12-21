@@ -21,7 +21,7 @@ Use the command below to clone the project.
 ```bash
 git clone https://github.com/Abdul-Wahab08/music.git
 ```
-##Setup and Run
+## Setup and Run
 
 ```bash
 cd music
@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-##Open your browser and visit:
+## Open your browser and visit:
 
 ```bash
 http://localhost:3000

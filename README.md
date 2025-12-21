@@ -19,6 +19,5 @@ A responsive music web app built with Next.js, TypeScript, and an incredible Ace
 Use the command below to clone the project.
 
 ```bash
-git clone https://github.com/Abdul-Wahab08/music-web-app.git
-
+git clone https://github.com/Abdul-Wahab08/music.git
 

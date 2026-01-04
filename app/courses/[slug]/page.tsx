@@ -1,7 +1,6 @@
 "use client"
 import courseData from '@/data/musicCourses.json'
 import { GlareCard } from "@/components/ui/glare-card";
-import { div } from 'motion/react-client';
 import { useParams } from 'next/navigation';
 
 function page() {

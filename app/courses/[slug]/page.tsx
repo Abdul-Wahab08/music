@@ -1,16 +1,12 @@
+"use client"
 import courseData from '@/data/musicCourses.json'
 import { GlareCard } from "@/components/ui/glare-card";
 import { div } from 'motion/react-client';
+import { useParams } from 'next/navigation';
 
-interface props{
-  params: Promise<{
-  slug: string
-  }>
-}
+function page() {
 
-async function page({params}: props) {
-
-    const {slug} = await params
+   const {slug} = useParams<{slug: string}>()
     const course = courseData.courses.find((course)=> course.slug === slug)
 
   return (

@@ -12,7 +12,7 @@ function Footer() {
                     <ul>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 Home
@@ -20,7 +20,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 About
